@@ -12,15 +12,14 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Random;
 import java.util.Vector;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+
 
 /**
  *
  * @author dshmelyo
  */
 public class Main extends Applet implements ActionListener, Runnable {
-	Thread thread = new Thread(this);
+        Thread thread = new Thread(this);
 	Vector TimeOfComin;
 	Vector TimeOfResolv;
 	Vector TimeOfRecord;
